@@ -1,0 +1,128 @@
+
+
+p {
+    color: #000 !important;
+    font-size: 13px !important;
+    font-family: 'Open Sans',sans-serif;
+	font-weight:500;
+	line-height: 16px;
+}
+
+.aboutMBA img {
+    vertical-align: bottom;
+   }
+.aboutMBA{
+    font-weight: bold;
+    font-size: 15px;
+    }
+.aboutBottom{
+	background:#3e4e5d;
+	width:100%;
+	height:10px;
+	margin-bottom:15px;
+   }	
+.tableid{
+    background: #4657a5;
+    padding: 6px 5px 16px 5px;
+	width: 100%;
+    height: 100%;
+    float: left;
+    } 
+.tableid_course {
+     background: #99cc00;
+    padding: 6px 5px 16px 5px;
+	width: 100%;
+    height: 100%;
+    float: left; 
+    margin-bottom: 10px;
+}    
+    
+.catmain{
+    color: #111;
+    margin: 10px 0px 0px 10px;
+    background: #fff;
+    padding: 8px 30px 9px 30px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+	float:left;
+	}
+.panel-title a {
+    padding: 10px 15px;
+    background-color: #4a8be9;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    }
+.panel-title a.collapsed {
+    color: #fff;
+   }	
+.panel-title a.collapsed:hover {
+    color: #fff;
+   }  
+#page #region-main .table>thead>tr>th {
+    border-bottom: 2px solid #a7c2d9;
+    color: #fff;
+    }
+    .extbtn .show-content {
+    display: block;
+    padding: 8px 15px;
+    background: #32376f;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    width: auto;
+    margin: 10px 0 10px 0;
+}
+
+.t-head {
+    background: #0066cc!important;
+    color: #fff!important;
+    font-size: 16px!important;
+    font-weight: 600!important;
+}
+
+.t-left-r {
+    background: #d7e8f9 !important;
+}
+
+.t-c-r {
+    background: #ecf3fb !important;
+}
+
+#region-main .table, th, tbody, tr, td {
+    border: 1px solid !important;
+    border-color: #999 !important;
+}
+
+th, td, tr, thead, tbody, .fc-row {
+    border-color: #999 !important;
+    font-size: 13px !important;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.content-inner p {
+	text-align: justify;
+	color: #000;
+	font-size: 14px;
+	font-family: 'Open Sans',sans-serif;
+}
+
+.imgBox1 {
+    width: 200px;
+    height: 68px !important;
+    margin-top: 4px !important;
+    margin-bottom: 10px !important;
+    margin-left: 2px;
+    margin-right: 5px;
+    max-width: none !important;
+}
+
+@media only screen and (max-width: 767px)
+{
+.imgBox1 {
+    width: 48% !important;
+	margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+}

@@ -1,0 +1,77 @@
+var isnn,isie
+if(navigator.appName=='Microsoft Internet Explorer') //check the browser
+ {  
+  isie=true 
+ }
+
+if(navigator.appName=='Netscape')
+ {  
+  isnn=true 
+ }
+
+function right() //to trap right click button 
+{
+	if (isnn && (event.which == 3 || event.which == 2 ))
+		return false;
+	else if (isie && (event.button == 2 || event.button == 3)) 
+	{
+		alert("Sorry, you do not have permission to right click on this page.");
+		
+		return false;
+	}
+		return true;
+}
+
+function key(e)   
+{	
+	if(isie) 
+	{
+	 var chr =window.event;
+	    chr.cancelBubble=true;
+		chr.returnValue=false;
+		chr.keyCode=505;
+			if (chr.keyCode==505)
+			{
+			    return false;
+			}
+	}
+	else
+	 {
+		e.cancelBubble=true;
+	 	e.returnValue=false;
+	 		if (e.keyCode)
+			{
+			return false;
+			}
+	 }   
+}
+
+
+function clickIE()
+ {
+    if (document.all)
+        {
+        (message);return false;
+        }
+ }
+ 
+function clickNS(e) 
+{
+if(document.layers||(document.getElementById&&!document.all))
+ {
+  if (e.which==2||e.which==3) 
+   {
+    (message);return false;
+   }
+  }
+ }
+ if (document.layers)
+     {
+      document.captureEvents(Event.MOUSEDOWN);document.  onmousedown=clickNS;
+     }
+  else
+     {
+      document.onmouseup=clickNS;document.oncontextmenu  =clickIE;
+     }
+   document.oncontextmenu=new Function("return false")
+ 

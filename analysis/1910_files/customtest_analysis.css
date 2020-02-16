@@ -1,0 +1,356 @@
+.aboutMBA img {
+    vertical-align: bottom;
+   }
+.aboutMBA{    
+    font-size: 25px;
+	 font-family:Georgia,serif;
+ color:#4E443C;
+ font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+    }
+.aboutBottom{
+	background:#3e4e5d;
+	width:100%;
+	height:10px;
+	margin-bottom:15px;
+   }	
+.tableid{
+    background: #4657a5;
+    padding: 6px 5px 16px 5px;
+	width: 100%;
+    height: 100%;
+    float: left;
+    } 
+.tableid_course {
+     background: #99cc00;
+    padding: 6px 5px 16px 5px;
+	width: 100%;
+    height: 100%;
+    float: left; 
+    margin-bottom: 10px;
+}    
+    
+.catmain{
+    color: #111;
+    margin: 10px 0px 0px 10px;
+    background: #fff;
+    padding: 8px 30px 9px 30px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+	float:left;
+	}
+.panel-title a {
+    padding: 10px 15px;
+    background-color: #4a8be9;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 14px;
+    }
+.panel-title a.collapsed {
+    color: #fff !important;
+   }	
+.panel-title a.collapsed:hover {
+    color: #fff;
+   }  
+#page #region-main .table>thead>tr>th {
+    border-bottom: 2px solid #a7c2d9;
+    color: #fff;
+    } 
+.cat-section{
+	min-width:150px;
+	max-width: 274px;
+    }
+.testCat {
+    width: 100%;
+    font-size: 15px;
+    color: #333;
+    font-weight: normal;
+    height: 35px;
+   }
+.testTopic{
+    font-size: 15px;
+    color: #333;
+    font-weight: normal;
+    height: 35px;
+   }   
+.cat-top{
+    background: #1e84cf;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 0px 15px 0px;
+   }
+.cat-btn{
+    background: #32376f !important;
+    padding: 5px 30px 9px 30px !important;
+    margin: -6px 0px 0px 30px !important;
+    border: none !important;
+    }
+
+.cat-tbl th, td, hr, thead, tbody, .fc-row {
+    border-color: #ccc !important;
+    background: #f4f4f4 !important;
+   } 
+.cat-tbl{
+    margin: 18px -15px 15px -15px;
+   }
+.topicTd{
+    padding: 10px !important;
+	color: #000 !important;
+	border: 1px solid #e6eff6 !important;
+    }
+	
+.ts-t-head {
+    background: #b3e2fc;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.vedioTd{
+    padding: 10px !important;
+	color: #000 !important;
+	border: 1px solid #e6eff6 !important;
+    }  
+.cam{
+    background: #191942;
+    color: #fff !important;
+    padding: 6px 10px 6px 10px;
+    font-size: 20px;
+    }	
+.crl{
+    background: #191942;
+    color: #fff !important;
+    padding: 6px 10px 6px 10px;
+    font-size: 20px;
+    }	
+
+.tdTpc{
+    padding-left: 10px !important;
+    vertical-align: middle !important;
+    font-size: 14px;
+	background:#f4f4f4 !important;
+  }
+.tdCm{
+    padding-left: 11px !important;
+    border-left: 1px solid #ccc8c8 !important;
+	background:#f4f4f4 !important;
+   }  
+.cat-selection {
+    min-width: 150px;
+    max-width: 311px;
+   }
+.aimcat-head{
+    background: #4657a5 !important;
+    /* color: #fff; */
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    padding: 14px 0px 18px 15px !important;
+   }  
+.aimcat-tabOne, .aimcat-tabTwo, .aimcat-tabThree, .aimcat-tabFour,.aimcat-tabFive, .aimcat-tabSix, .aimcat-tabSeven, .aimcat-tabEight, .aimcat-tabNine, .aimcat-tabTen, .aimcat-tabEleven, .aimcat-tabTwelve, .aimcat-tabThirteen, .aimcat-Fourteen, .aimcat-Fifteen, .aimcat-Sixteen {
+    border-radius: 5px !important;
+   } 
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #ff7011 !important;
+   }
+.aimcat-tbl{
+    margin: 0px -15px 0px -15px !important;
+    border: 0px !important;
+   }   
+.test {
+    background: #f1c40f;
+    padding: 13px 16px 12px 16px;
+    color: #fff !important;
+    text-align: center;
+	border-radius: 5px;
+   }
+.qui td{
+	text-align: center;
+	vertical-align: middle !important;
+   }
+.tdMy {
+    border-left: 1px solid #e6eff6 !important;
+    background: #f8f8f8 !important;
+	padding: 5px 10px !important;
+   } 
+.ui-tabs .ui-tabs-panel {
+    padding: 1em 0em;
+  } 
+  
+/*added by swamy*/
+th, td, hr, thead, tbody, .fc-row {
+    background: none !important;
+}
+.t-left-r {
+    background: #d7e8f9 !important;
+}
+.t-c-r {
+    background: #ecf3fb !important;
+}
+.rowResult {
+    margin-right: 0px;
+    margin-left: 0px;
+  } 
+#subcontent table{
+	width:100% !important;
+  }
+#catmenus{
+    color: #111 !important;
+   }
+#catmenus:focus, #catmenus:hover, #catmenus.visited, #catmenus.active {
+    color: #ff7011 !important;
+   }
+.MsoNormalTable{
+	margin-left: 0pt !important;
+   }
+.vdo{
+    text-align: center !important;
+    width: 15%;
+	}
+.text-center{
+	text-align:center !important;
+  }
+
+#page .block-region .block .header .title h2 {
+    color: #fff !important;  
+   }
+.block .header .title h2:before{
+	content:none;
+}
+#page .block-region .block {
+    background: #fff;
+    box-shadow: 0px 0px 8px 0px #c5c2c2;
+	background: none !important;
+	padding-bottom: 25px;
+  }  
+.tree_item, .block_tree li p, .content {
+    margin: 0px !important;
+	padding: 10px 0px;
+    border-bottom: 1px solid #f3eeee;
+  }  
+.requiresjs, .block-hider-hide, .block-hider-show {
+    width: 20px !important;
+    background: #fff;
+ }  
+ .depth_2 a, .tree_item, .tree_item a, .block_tree li p a, .content a {
+    color: #333;
+    font-weight: 500;
+    font-size: 13px;
+	margin: 5px 0px;
+  }
+.box {
+    /*background: #fff !important;*/
+    background: none !important;
+    }  
+/*============== Media Queries ======================== */
+@media (max-width: 767px){
+#region-main table {
+    max-width: 100%;
+    display: table;
+    overflow-x: auto;
+    }
+.qui{
+	display:block !important;
+   }		
+.cat-tbl{
+    width: 106%;
+    }	
+	}
+	
+@media only screen  and (min-width: 100px) and (max-width: 448px) {	
+.cat-selection, .testTopic {
+    margin-bottom: 20px !important;
+   }
+}   
+
+
+/*------------------- Updates Sanjay ----------------*/
+
+.ui-tabs .ui-tabs-nav li {
+	margin: 5px .2em 0 0 !important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	padding-bottom: 0px !important; 
+}
+
+
+/*--------------- Newly added for Comphrensive tests --------------*/
+.tab
+{
+    margin: 1%;
+}
+
+.t-head
+{
+    background-color: blue;
+    color: white;
+	
+}
+
+.thd
+{
+    border: 1px solid;
+    text-align: center;
+    padding: 15px;
+}
+
+.table-striped>tbody>tr:nth-child>td:last-child 
+{
+    background-color: #c4e3fb !important;
+    text-align: center !important;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td 
+{
+    background-color: #e2f1fd !important;
+    text-align: center !important;
+    padding: 15px;
+}
+.table-striped>tbody>tr:nth-child(odd)>td 
+{
+    background-color: #e2f1fd !important;
+    text-align: center !important;
+    padding: 15px;
+}
+
+.table-striped>tbody>tr:nth-child>td:last-child 
+{
+    background-color: #c4e3fb !important;
+    text-align: center !important;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td:last-child {
+    background-color: #c4e3fb !important;
+    text-align: center !important;
+}
+.table-striped>tbody>tr:nth-child(odd)>td:last-child {
+    background-color: #c4e3fb !important;
+    text-align: center !important;
+}
+
+
+
+.sub
+{
+    padding: 5px;
+    width: 10%;
+    border-radius: 4px;
+    background: blue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.selectedQ
+{
+    padding: 10px;
+    background: #03039a;
+    margin: 1%;
+    width: 30%;
+    color: white;
+    border-radius: 4px;
+    font-size: larger;
+    font-weight: bold;
+}
+/*----------------Ends for CRT comphrensive Test links --------------*/
+
+

@@ -1,0 +1,385 @@
+.modal-open {
+	padding-right: 0 !important;
+}
+
+#mask {
+  left:0!important;
+  top:0;
+  z-index:9999;
+  background-color:#1d2731;
+  opacity:0.7!important;
+  left:0;
+  display:none;
+  height:100%;
+  overflow:hidden;
+  position: fixed;
+  width: 100%!important;
+
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:15px!important;
+  height:auto;
+  display:none;
+  z-index:99999;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.maintext{
+	text-align: center;
+	text-decoration: none;
+}
+
+#lorem{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12pt;
+	text-align: left;
+}
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+.agree{
+	font-size:16px!important;
+	text-align:center!important;
+	color:#414141!important;}
+
+.agree:hover{
+  background-color: #D1D1D1;
+  padding:3px 5px;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color: red;
+}
+
+/*.modal-body {
+    position: relative;
+	padding: 0px !important;
+    padding-bottom: 15px !important;
+} */
+
+.lgbd {
+    position: relative;
+	padding: 0px !important;
+	display: -webkit-inline-box;
+}
+
+.window {
+	left: 540px;
+}
+
+@media only screen and (min-width:1024px) and (max-width:1920px) {
+.lgin {
+    width: 960px !important;
+    margin: 24px auto !important;
+}
+
+.lghd {
+	background: #003399;
+	min-height: 90px !important;
+	padding: 12px 20px !important;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+.lgin {
+    width: 95%;
+    margin: 30px auto;
+}
+
+.modal-title {
+	margin-top:0;
+	margin-bottom: 10px;
+}
+
+.lghd {
+	background: #003399;
+	min-height: 140px;
+}
+
+.loginbox h2, .loginbox {
+	width: 35%;
+}
+
+.window {
+	left: auto;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+.lgin {
+    width: 96%;
+    margin: 82px auto;
+}
+
+.modal-title {
+	margin-top:0 !important;
+	margin-bottom: 20px;
+	display: block !important;
+}
+
+.lghd {
+	background: #003399;
+	min-height: 140px;
+}
+
+.loginbox h2, .loginbox {
+	width: 35%;
+}
+
+.window {
+	left: auto;
+}
+
+.loginform {
+	display: block !important;
+}
+
+#login {
+	display: block !important;
+	float: none !important;
+}
+.lgbnr {
+	display: none;
+}
+.loginbox h2, .loginbox {
+	width: 100% !important;
+}
+.btcls .close {
+	margin-right: -12px !important;
+}
+.form-input {
+	width: 100%;
+}
+.modal-header .loginform .form-input input {
+	width: 100% !important;
+}
+.forgetpass {
+	margin-top: 10px !important;
+	text-align: center;
+    margin-right: 0 !important;
+}
+.rememberpass {
+	margin-bottom: 10px;
+}
+.lgbt {
+	margin-right: 0 !important;
+	text-align: center;
+}
+.signupform {
+	text-align: center;
+}
+.modal {
+	z-index: 99999;
+}
+}
+
+.modal-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+	display: inline-block;
+	margin-top: 16px !important;
+}
+
+#login {
+	display:inline-flex; 
+	float:right;
+	}
+
+.loginbox .loginform {
+   /* margin-top: 1em; */
+    text-align: left;
+}
+
+.form-input {
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.lgbtns {
+	margin-right:12px;
+}
+
+.lgbtns .loginbtn {
+	height: 34px;
+	color: #039;
+	border-radius: 3px;
+}
+
+.loginbox h2, .loginbox {
+    padding: 20px;
+	width: 30%;
+} 
+
+.loginpanel {
+	margin-top: 15px;
+}
+
+#signup input {
+	color: #003399;
+	    border-radius: 3px;
+}
+
+.loginbox .rememberpass {
+    text-align: left !important;
+	margin-bottom: 15px;
+}
+
+.forgetpass {
+	margin-top: 28px;
+	margin-right: 20px;
+}
+
+.signupHead {
+	margin-bottom: 10px;
+}
+
+.btcls .close {
+	width: 30px !important;
+	height: 30px;
+    margin-right: -35px;
+    opacity: 1;
+    background: #ffcb08 !important;
+    color: #003399;
+	text-shadow: 0 0 0;
+}
+
+.lgbnr {
+    position: relative;
+    padding: 20px 0;
+    width: 70%;
+}
+
+.lgbnr img {
+    margin: 5px 5px !important;
+}
+
+.lghd label {
+	color: #fff;
+	display: inline-block !important;
+}
+
+.lgbt {
+	display: grid;
+}
+
+.lgbt button {
+	color: #039;
+}
+
+/*button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
+    text-align: center !important;
+    vertical-align: middle !important;
+    color: #083f88 !important;
+    width: 106px;
+} */
+
+input[type="password"] {
+	border: 1px solid #ccc;
+	    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border linear .2s, box-shadow linear .2s;
+    -moz-transition: border linear .2s, box-shadow linear .2s;
+    -o-transition: border linear .2s, box-shadow linear .2s;
+    transition: border linear .2s, box-shadow linear .2s;
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+.lgbnr .imgBox {
+    width: 200px !important;
+    height: auto !important;
+}
+
+}
+
+@media (min-width: 768px){
+.modal-dialog {
+    width: 800px;
+    margin: 30px auto;
+}
+
+.window {
+	left: auto;
+}
+
+}
+
+@media (min-width: 414px){
+.modal-dialog {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.window {
+	left: auto;
+}
+
+}
+
+.modal {
+	width: 100% !important;
+}
+
+
+/*----------/login/index/--------*/
+
+@media only screen and (min-width: 980px){
+.intpanel {
+    width: 30% !important;
+}
+}
+
+.loginbox .intpanel h2{
+	width: 100%;
+	padding: 15px !important;
+}
+
+.intform {
+	display: block;
+}
+
+#sublog {
+	display: block;
+    float: unset;
+}
+
+.loginbox .intform {
+	margin-top: 0 !important
+}
+
+.intform .form-input {
+	margin-bottom: 0;
+}
+
+.loginbox .intpanel .subcontent {
+    padding: 15px !important;
+}
+
+.intfrgt {
+	margin-top: 10px;
+	margin-right: 0;
+}
+
+.intfrgt a {
+	color: #000 !important;
+}
+
+.subcontent h2 {
+	padding: 20px;
+    width: 100%;
+}

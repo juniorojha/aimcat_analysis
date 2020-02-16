@@ -1,0 +1,97 @@
+/*========================== Media Queries Start ========================== */  
+
+@media only screen  and (min-width: 100px) and (max-width: 767px) {
+.tab-two, .tab-three, .tab-four{
+	margin: 5px 0px 5px 0px;
+	} 
+.tab-one{
+	margin: 10px 0px 5px 0px;
+   }
+  }   
+@media only screen  and (min-width: 100px) and (max-width: 991px) {
+	
+span.box-yellow {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+	}
+
+span.box-green{
+	width: 25px;
+    height: 25px;
+    padding: 5px;
+   }
+span.box-red{
+	width: 25px;
+    height: 25px;
+    padding: 5px;
+   }   
+span.box-dummy{
+	width: 25px;
+    height: 25px;
+    padding: 5px;
+   }
+span.box-red-top {
+    width: 28px;
+    height: 22px;
+    padding: 2px;
+   } 
+span.box-yellow-top {
+    width: 28px;
+    height: 22px;
+    padding: 2px;
+   }   
+span.box-green-top {
+    width: 28px;
+    height: 22px;
+    padding: 2px;
+   } 
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+    font-size: 11px;
+  } 
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    font-size: 11px;
+   } 
+
+.total, .accuracy, .rightNumber, .right{
+	padding-left: 10px !important;
+  }     
+  
+span.aimcat-yellow {
+	display: inline-block;
+    width: 35px;
+    height: 24px;
+    padding: 2px;
+    margin: 0px;
+   }
+span.aimcat-green {
+	display: inline-block;
+    width: 35px;
+    height: 24px;
+    padding: 2px;
+    margin: 0px;
+   }
+span.aimcat-red {
+	display: inline-block;
+    width: 35px;
+    height: 24px;
+    padding: 2px;
+    margin: 0px;
+   }
+span.em{
+	display:inline-block;
+    width: auto;
+    height: auto;
+   }      
+   }
+@media only screen  and (min-width: 100px) and (max-width: 356px) {   
+.vnext {
+    padding: 2px 0px 0px 4px;
+    font-size: 16px;
+   }
+.vnext .btn-info {
+    font-size: 14px;
+    }   
+  }   
+/*========================== Media Queries End ========================== */  	

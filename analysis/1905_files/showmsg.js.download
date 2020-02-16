@@ -1,0 +1,35 @@
+// JScript source code
+function showmsg(msg,i)
+{ 
+	
+	if (navigator.appName == "Microsoft Internet Explorer")
+	{
+	    var y =document.body.scrollTop;
+	    x=event.clientX;
+	    y1=event.clientY;
+	}
+	else 
+	{
+	    var y = window.pageYOffset;
+	    x=window.pageXOffset;
+	    y1=window.pageYOffset;
+	}
+	
+	if(x>650)
+		x=x-250
+	y=y + y1
+	y=y+ "px";
+	
+	if(i<3)
+		//msg=msg + "<img src="+ i +".gif>"
+		
+	document.getElementById("div1").innerHTML=msg;
+	document.getElementById("div1").style.left=x + "px"
+	document.getElementById("div1").style.top=y;	
+	document.getElementById("div1").style.visibility="visible"
+	alert(msg);
+}                
+function hidemsg()
+{
+	document.getElementById("div1").style.visibility="hidden"
+}
